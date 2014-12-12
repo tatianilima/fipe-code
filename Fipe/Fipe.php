@@ -10,7 +10,6 @@ use Fipe\FipeRequestData;
 
 class Fipe
 {
-
     const URL_BASE = 'fipe.org.br';
     const PATH_BASE = '/web/indices/veiculos/default.aspx?';
 
@@ -73,7 +72,14 @@ class Fipe
         return $listOfModels;
     }
    
-    
+    /**
+     * Method return a list of AnoModelo
+     * @param Integer $marcaID
+     * @param Integer $modeloID
+     * @return \SplObjectStorage
+     * 
+     * @throws Exception
+     */
     public function anoModelo($marcaID, $modeloID){
         $this->_validateFormViewState();
               
@@ -92,7 +98,18 @@ class Fipe
         return $lisOfAnoModelo;
     }
     
+    /**
+     * Method return a cotation of vehicle
+     * @param Integer $marcaID
+     * @param Integer $modeloID
+     * @param Integer $anoModeloID
+     * @return array
+     * 
+     * @throws Exception
+     */
     public function anoModeloCotacao($marcaID, $modeloID, $anoModeloID){
+        $this->_validateFormViewState();
+        
         $request = new FipeRequestData();
         $request->setDdlMarca($marcaID);
         $request->setDdlModelo($modeloID);

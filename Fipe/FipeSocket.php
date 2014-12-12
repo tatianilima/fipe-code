@@ -41,6 +41,7 @@ class FipeSocket{
 		$fp = fsockopen($host, 80, $errno, $errstr, 60);
 		
 		if(!$fp){
+			fclose($fp);
 			throw new \Exception($_err.$errstr.$errno); 
 		}else {
 			fputs($fp, "POST $path HTTP/1.1\r\n");
