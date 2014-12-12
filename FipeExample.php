@@ -15,7 +15,7 @@ echo '######################## MOTO ###########################<br>';
 
 //initialize the APP Fipe
 $fipe = new Fipe(Fipe::MOTOS);
-//get all trands
+//get all brands
 $fipe->marcas();
 //get one model of the vehicle, you can do it through of one foreach;
 $fipe->modelos(80);
@@ -30,7 +30,7 @@ echo '######################## CARRO ###########################<br>';
 
 //initialize the APP Fipe
 $fipe = new Fipe(Fipe::CARROS);
-//get all trands
+//get all brands
 $fipe->marcas();
 //get one model of the vehicle, you can do it through of one foreach;
 $fipe->modelos(59);
@@ -46,7 +46,7 @@ echo '######################## CAMINHÃO ###########################<br>';
 
 //initialize the APP Fipe
 $fipe = new Fipe(Fipe::CAMINHOES);
-//get all trands
+//get all brands
 $fipe->marcas();
 //get one model of the vehicle, you can do it through of one foreach;
 $fipe->modelos(105);
