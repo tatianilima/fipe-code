@@ -1,6 +1,8 @@
 fipeCode - Biblioteca para busca de valores de veículos na tabela FIPE
 ========
 
+Obs: Este código é de exemplo, para realizar a utilização de forma correta, realize a persistência  dos dados no MySQL, Postgres e etc.
+
 Importe os dados da tabela FIPE (http://www.fipe.org.br) para seu banco de dados de maneira simples e rápida. Siga o manual abaixo:
 
 1 - Utilize autoload PSR-0 (http://www.php-fig.org/psr/psr-0/pt-BR/)
@@ -71,7 +73,7 @@ Array
 )
 ```
 
-6 - É necessário a execução de todos os processos deste obtenção de marcas, devido a utilização do viewstate.
+6 - É necessário a execução de todos os processos desde a obtenção de marcas, devido a utilização do viewstate.
 
 7 - Library aberta para utilização e melhorias.
 
