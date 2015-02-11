@@ -8,6 +8,6 @@
             "email": "jhonjoya@tray.net.br"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {}
 }
