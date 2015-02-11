@@ -5,6 +5,21 @@ Obs: Este código é de exemplo, para realizar a utilização de forma correta, 
 
 Importe os dados da tabela FIPE (http://www.fipe.org.br) para seu banco de dados de maneira simples e rápida. Siga o manual abaixo:
 
+
+Declare em seu componser.json
+
+"repositories": [
+	{
+		"type": "vcs",
+		"url": "https://github.com/jhonjoya-tray/fipeCode"
+	}
+],
+"require": {
+	"honjoya/fipecode": "master"
+}
+	
+
+
 1 - Utilize autoload PSR-0 (http://www.php-fig.org/psr/psr-0/pt-BR/)
 
 2 - Estrututa sugeria:

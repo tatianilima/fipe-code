@@ -1,0 +1,13 @@
+{
+    "name": "honjoya/fipecode",
+    "description": "Biblioteca para cosultar os dados da tabela FIPE",
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "Jose Henrique Honjoya",
+            "email": "jhonjoya@tray.net.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
