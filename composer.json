@@ -1,7 +1,8 @@
 {
     "name": "honjoya/fipecode",
     "description": "Biblioteca para cosultar os dados da tabela FIPE",
-    "license": "Apache",
+    "license": "MIT",
+	"type": "library",
     "authors": [
         {
             "name": "Jose Henrique Honjoya",
