@@ -1,5 +1,5 @@
 {
-    "name": "honjoya/fipecode",
+    "name": "honjoya/fipe-code",
     "description": "Biblioteca para cosultar os dados da tabela FIPE",
     "license": "MIT",
 	"type": "library",
